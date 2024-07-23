@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4b21": {
+      "importer": "gltf-material",
+      "uuid": "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f@b4b21",
+      "displayName": "",
+      "id": "b4b21",
+      "name": "Wood_dark2_1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75a22": {
+      "importer": "gltf-scene",
+      "uuid": "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f@75a22",
+      "displayName": "",
+      "id": "75a22",
+      "name": "Fence.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f@75a22",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f@b4b21"
+      ],
+      "scenes": [
+        "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f@75a22"
+      ]
+    },
+    "materials": {
+      "ee4883fb-bd32-4bdb-8c84-83b9c1f7b64f@b4b21": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 160,
+              "g": 95,
+              "b": 61,
+              "a": 255
+            },
+            "albedoScale": 2
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5",
+  "files": [],
+  "subMetas": {
+    "21616": {
+      "importer": "gltf-mesh",
+      "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5@21616",
+      "displayName": "",
+      "id": "21616",
+      "name": "apple.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 156
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bad66": {
+      "importer": "gltf-mesh",
+      "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5@bad66",
+      "displayName": "",
+      "id": "bad66",
+      "name": "Plane_4.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 10
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "08c68": {
+      "importer": "gltf-mesh",
+      "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5@08c68",
+      "displayName": "",
+      "id": "08c68",
+      "name": "Plane.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bdb7d": {
+      "importer": "gltf-mesh",
+      "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5@bdb7d",
+      "displayName": "",
+      "id": "bdb7d",
+      "name": "conveyor_V1.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 192
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7f6b9": {
+      "importer": "gltf-mesh",
+      "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5@7f6b9",
+      "displayName": "",
+      "id": "7f6b9",
+      "name": "conveyor_V2.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 416
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e47ba": {
+      "importer": "gltf-material",
+      "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5@e47ba",
+      "displayName": "",
+      "id": "e47ba",
+      "name": "Mat.1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4c2ec": {
+      "importer": "gltf-material",
+      "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5@4c2ec",
+      "displayName": "",
+      "id": "4c2ec",
+      "name": "apple_stack.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b664a": {
+      "importer": "gltf-scene",
+      "uuid": "4be4b483-0efd-4f58-966b-03d03c24fac5@b664a",
+      "displayName": "",
+      "id": "b664a",
+      "name": "conveyor_apple.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "4be4b483-0efd-4f58-966b-03d03c24fac5@b664a",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "4be4b483-0efd-4f58-966b-03d03c24fac5@21616",
+        "4be4b483-0efd-4f58-966b-03d03c24fac5@bad66",
+        "4be4b483-0efd-4f58-966b-03d03c24fac5@08c68",
+        "4be4b483-0efd-4f58-966b-03d03c24fac5@bdb7d",
+        "4be4b483-0efd-4f58-966b-03d03c24fac5@7f6b9"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "4be4b483-0efd-4f58-966b-03d03c24fac5@e47ba",
+        "4be4b483-0efd-4f58-966b-03d03c24fac5@4c2ec"
+      ],
+      "scenes": [
+        "4be4b483-0efd-4f58-966b-03d03c24fac5@b664a"
+      ]
+    },
+    "materials": {
+      "4be4b483-0efd-4f58-966b-03d03c24fac5@4c2ec": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 1,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {
+              "cullMode": 0
+            },
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "7233a0c0-1974-44ce-97a0-2d51640d0936@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 1.5,
+            "shininessExponent": 10
+          },
+          {},
+          {},
+          {}
+        ]
+      },
+      "4be4b483-0efd-4f58-966b-03d03c24fac5@e47ba": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {
+              "cullMode": 0
+            },
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "09bdbfdb-5e72-4522-b4c2-fdc9b01dc601@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 1.6,
+            "shininessExponent": 10
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

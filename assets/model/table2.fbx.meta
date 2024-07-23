@@ -1,0 +1,186 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8",
+  "files": [],
+  "subMetas": {
+    "b1e4a": {
+      "importer": "gltf-mesh",
+      "uuid": "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8@b1e4a",
+      "displayName": "",
+      "id": "b1e4a",
+      "name": "table2.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 96
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "519f2": {
+      "importer": "gltf-material",
+      "uuid": "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8@519f2",
+      "displayName": "",
+      "id": "519f2",
+      "name": "CoffeeBench.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e7091": {
+      "importer": "gltf-scene",
+      "uuid": "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8@e7091",
+      "displayName": "",
+      "id": "e7091",
+      "name": "table2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8@e7091",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8@b1e4a"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8@519f2"
+      ],
+      "scenes": [
+        "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8@e7091"
+      ]
+    },
+    "materials": {
+      "31de1171-e8f7-4f38-b9fb-7c1dc243d6a8@519f2": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "517555ef-c0be-4bbb-a29a-890368cdd6d9@85cc3",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 245,
+              "g": 235,
+              "b": 235,
+              "a": 255
+            },
+            "albedoScale": 0.8,
+            "shininessExponent": 1,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 0,
+              "g": 102,
+              "b": 141,
+              "a": 0
+            },
+            "specularFactor": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

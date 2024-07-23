@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2ecb060b-6c64-4395-9ed9-5db1cd017ca0",
+  "files": [],
+  "subMetas": {
+    "76b6f": {
+      "importer": "gltf-mesh",
+      "uuid": "2ecb060b-6c64-4395-9ed9-5db1cd017ca0@76b6f",
+      "displayName": "",
+      "id": "76b6f",
+      "name": "serviette.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c66c2": {
+      "importer": "gltf-material",
+      "uuid": "2ecb060b-6c64-4395-9ed9-5db1cd017ca0@c66c2",
+      "displayName": "",
+      "id": "c66c2",
+      "name": "serviette2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "653b1": {
+      "importer": "gltf-scene",
+      "uuid": "2ecb060b-6c64-4395-9ed9-5db1cd017ca0@653b1",
+      "displayName": "",
+      "id": "653b1",
+      "name": "serviette.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "2ecb060b-6c64-4395-9ed9-5db1cd017ca0@653b1",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2ecb060b-6c64-4395-9ed9-5db1cd017ca0@76b6f"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "2ecb060b-6c64-4395-9ed9-5db1cd017ca0@c66c2"
+      ],
+      "scenes": [
+        "2ecb060b-6c64-4395-9ed9-5db1cd017ca0@653b1"
+      ]
+    },
+    "materials": {
+      "2ecb060b-6c64-4395-9ed9-5db1cd017ca0@c66c2": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "7a993dcc-edc3-496e-a987-063d608e00f1@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 1.1
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

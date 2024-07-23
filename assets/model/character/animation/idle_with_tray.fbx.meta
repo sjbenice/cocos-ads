@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "28551a5c-6729-4be6-be26-d1a3adb061c6",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "201de": {
+      "importer": "gltf-animation",
+      "uuid": "28551a5c-6729-4be6-be26-d1a3adb061c6@201de",
+      "displayName": "",
+      "id": "201de",
+      "name": "CINEMA_4D_Main.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "00346": {
+      "importer": "gltf-scene",
+      "uuid": "28551a5c-6729-4be6-be26-d1a3adb061c6@00346",
+      "displayName": "",
+      "id": "00346",
+      "name": "idle_with_tray.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "CINEMA_4D_Main",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "201de"
+          }
+        ]
+      }
+    ],
+    "redirect": "28551a5c-6729-4be6-be26-d1a3adb061c6@00346",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "28551a5c-6729-4be6-be26-d1a3adb061c6@00346"
+      ]
+    }
+  }
+}

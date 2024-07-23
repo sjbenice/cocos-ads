@@ -1,0 +1,178 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ac43c880-b756-42bb-8fc2-e58e8b4bff02",
+  "files": [],
+  "subMetas": {
+    "7631e": {
+      "importer": "gltf-mesh",
+      "uuid": "ac43c880-b756-42bb-8fc2-e58e8b4bff02@7631e",
+      "displayName": "",
+      "id": "7631e",
+      "name": "palette_b.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 128
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f70b6": {
+      "importer": "gltf-material",
+      "uuid": "ac43c880-b756-42bb-8fc2-e58e8b4bff02@f70b6",
+      "displayName": "",
+      "id": "f70b6",
+      "name": "BenchBOX_1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cda90": {
+      "importer": "gltf-scene",
+      "uuid": "ac43c880-b756-42bb-8fc2-e58e8b4bff02@cda90",
+      "displayName": "",
+      "id": "cda90",
+      "name": "palette_B.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "ac43c880-b756-42bb-8fc2-e58e8b4bff02@cda90",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ac43c880-b756-42bb-8fc2-e58e8b4bff02@7631e"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ac43c880-b756-42bb-8fc2-e58e8b4bff02@f70b6"
+      ],
+      "scenes": [
+        "ac43c880-b756-42bb-8fc2-e58e8b4bff02@cda90"
+      ]
+    },
+    "materials": {
+      "ac43c880-b756-42bb-8fc2-e58e8b4bff02@f70b6": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "7472ac9e-ca3d-4bf0-acc2-54aa59e35a94@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "shininessExponent": 1,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 14,
+              "g": 14,
+              "b": 14,
+              "a": 0
+            },
+            "specularFactor": -19.2
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

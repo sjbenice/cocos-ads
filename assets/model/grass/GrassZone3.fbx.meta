@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "117019a9-9e86-4d91-ac44-9a1d29c6c481",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "117019a9-9e86-4d91-ac44-9a1d29c6c481@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1834a": {
+      "importer": "gltf-material",
+      "uuid": "117019a9-9e86-4d91-ac44-9a1d29c6c481@1834a",
+      "displayName": "",
+      "id": "1834a",
+      "name": "Grass.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "acb3d": {
+      "importer": "gltf-scene",
+      "uuid": "117019a9-9e86-4d91-ac44-9a1d29c6c481@acb3d",
+      "displayName": "",
+      "id": "acb3d",
+      "name": "GrassZone3.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "117019a9-9e86-4d91-ac44-9a1d29c6c481@acb3d",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "117019a9-9e86-4d91-ac44-9a1d29c6c481@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "117019a9-9e86-4d91-ac44-9a1d29c6c481@1834a"
+      ],
+      "scenes": [
+        "117019a9-9e86-4d91-ac44-9a1d29c6c481@acb3d"
+      ]
+    }
+  }
+}

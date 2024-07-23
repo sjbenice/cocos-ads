@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ee35e359-b50c-4879-ba62-2aa77a9abe95",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "ee35e359-b50c-4879-ba62-2aa77a9abe95@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf5d1": {
+      "importer": "gltf-material",
+      "uuid": "ee35e359-b50c-4879-ba62-2aa77a9abe95@cf5d1",
+      "displayName": "",
+      "id": "cf5d1",
+      "name": "Wood_dark2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c97c5": {
+      "importer": "gltf-scene",
+      "uuid": "ee35e359-b50c-4879-ba62-2aa77a9abe95@c97c5",
+      "displayName": "",
+      "id": "c97c5",
+      "name": "Zone1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "ee35e359-b50c-4879-ba62-2aa77a9abe95@c97c5",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ee35e359-b50c-4879-ba62-2aa77a9abe95@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ee35e359-b50c-4879-ba62-2aa77a9abe95@cf5d1"
+      ],
+      "scenes": [
+        "ee35e359-b50c-4879-ba62-2aa77a9abe95@c97c5"
+      ]
+    }
+  }
+}
